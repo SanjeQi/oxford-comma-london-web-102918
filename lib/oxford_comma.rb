@@ -8,8 +8,7 @@ def oxford_comma(array)
     return arr_and
   elsif array.length === 3
     string = " and " + array[2]
-    return string
+    
   end
 end
 
-oxford_comma(["a","b","c"])
