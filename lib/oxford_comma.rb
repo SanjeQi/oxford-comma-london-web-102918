@@ -1,4 +1,4 @@
-array =["a","b","c"]
+
 
 def oxford_comma(array)
   if array.length == 1
@@ -11,3 +11,5 @@ def oxford_comma(array)
     return string
   end
 end
+
+oxford_comma(["a","b","c"])
